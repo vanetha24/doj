@@ -145,6 +145,22 @@ var S3WaaSAccessibilityParams = {"blogInfoName":"Department of Justice","default
     }
 </style>
 
+<script>
+    // References to chat button and container
+const chatButton = document.getElementById("chat-button");
+const chatContainer = document.getElementById("chat-container");
+
+// Toggle visibility of chatbot
+chatButton.addEventListener("click", () => {
+  if (chatContainer.style.display === "none" || chatContainer.style.display === "") {
+    chatContainer.style.display = "block"; // Show chatbot
+  } else {
+    chatContainer.style.display = "none"; // Hide chatbot
+  }
+});
+
+</script>
+
     <!--topBar start-->
     <div id="topBar">
         <div class="container">
